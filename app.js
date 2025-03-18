@@ -15,6 +15,7 @@ app.post("/otp",async (req,res)=>{
         lowerCaseAlphabets: false,
       });
       const emailBody = ` <!DOCTYPE html>
+      
     <html>
     <head>
       <meta charset="UTF-8">
